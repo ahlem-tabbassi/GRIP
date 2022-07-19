@@ -1,0 +1,124 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+body{
+    background-image: linear-gradient(135deg,#010006,#012E4B,#010102);}
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	padding: 10px 90px;
+	box-sizing: border-box;
+	background-color: rgba(0,0,0,0,6);
+	border-bottom: 1px solid #fff;
+}
+i{
+	
+	color: white;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	}
+	
+nav.logo{
+	padding: 22px 20px;
+	height: 80px;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+}
+nav ul{
+	
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li a{
+	color: #fff;
+	padding: 30px 30px;
+	padding-bottom: 2px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+nav ul li a:hover{
+	background: rgba(0,0,0,0,7);
+	border-radius: 6px;
+}
+#footer{
+    position:absolute;
+    bottom:0;
+    width:20%;
+    height:48px;
+	opacity: 0.4;
+    color:rgb(255, 247, 247);
+    text-align: left;
+    padding: 1rem 2rem;    
+}
+#features .btn-primary
+{
+	box-shadow:none;
+	padding:100px 90px;
+	border:none;
+	align-content: center;
+}
+
+#features1
+{
+	background-color: #d91111;
+	text-align: center;
+	padding: 10% 15%;
+}
+#features
+ {
+     text-align: center;
+	 padding: 10% 15%;
+	 
+	
+
+ }
+
+ .features1 h1
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+
+.features h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+#action{
+    background-color:black;
+    padding: 7% 15%;
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(238, 232, 232);
+  }
+  .main{
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 10px 0px;
+    }
+
+
+    
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
